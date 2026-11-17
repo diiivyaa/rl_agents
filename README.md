@@ -33,6 +33,8 @@ The agent uses experience replay, ε-greedy exploration, and a periodically sync
 - **Training time:** 978.27 seconds (~16.3 minutes)
 - **Best checkpoint:** 115,000 environment steps
 
+![DQN Learning Curve](DQN_Starter/runs/training_baseline/learning_curve.png)
+
 ### Independent Evaluation
 
 Evaluated the selected DQN against a random-action baseline over 20 test episodes.
@@ -44,6 +46,8 @@ Evaluated the selected DQN against a random-action baseline over 20 test episode
 | Episodes evaluated | 20 | 20 |
 
 **The DQN outperformed the random-action baseline in all 20 test episodes**, improving the mean episode return by 1033.86.
+
+[Watch Pendulum Control Video](DQN_Starter/runs/evaluation/policy.mp4)
 
 ## Tech Stack
 
