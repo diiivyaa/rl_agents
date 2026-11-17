@@ -1,0 +1,9 @@
+# Install torch separately from the CPU or CUDA index; see README.md.
+torch==2.14.1
+gymnasium[classic-control]==1.4.0
+numpy==2.5.4
+pygame-ce==2.5.8
+pillow==13.0.0
+imageio==2.38.1
+imageio-ffmpeg==0.6.0
+matplotlib==3.11.2

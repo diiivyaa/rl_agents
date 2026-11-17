@@ -1,0 +1,14 @@
+{
+  "steps": 150000,
+  "updates": 37251,
+  "best_validation_return": -101.28883908907312,
+  "elapsed_seconds": 978.2696068000005,
+  "runtime": {
+    "torch": "2.14.1+cu126",
+    "numpy": "2.5.4",
+    "cuda_runtime": "12.6",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 3070 Laptop GPU"
+  },
+  "stop_reason": "step_budget"
+}

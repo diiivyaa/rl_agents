@@ -1,0 +1,41 @@
+{
+  "steps": 150000,
+  "seed": 42,
+  "device": "auto",
+  "output": "C:\\Users\\Admin\\CEG5301_CA5\\DQN_Starter\\runs\\training",
+  "learning_rate": 0.0002,
+  "gamma": 0.99,
+  "batch_size": 64,
+  "buffer_size": 20000,
+  "learning_starts": 1000,
+  "train_every": 4,
+  "target_every": 1000,
+  "epsilon_end": 0.05,
+  "epsilon_decay": 100000,
+  "log_every": 2000,
+  "eval_every": 5000,
+  "eval_episodes": 5,
+  "stop_return": null,
+  "stop_evaluations": 2,
+  "runtime": {
+    "torch": "2.14.1+cu126",
+    "numpy": "2.5.4",
+    "cuda_runtime": "12.6",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 3070 Laptop GPU"
+  },
+  "preprocessing": {
+    "renderer": "legacy_rod_no_arrow_v1",
+    "render_size": 500,
+    "crop_box": [
+      120,
+      120,
+      380,
+      380
+    ],
+    "grayscale": "legacy_weighted_uint8_truncate",
+    "resize": "bilinear"
+  },
+  "architecture": "student_network_v1",
+  "parameters": 88633
+}

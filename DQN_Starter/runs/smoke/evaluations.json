@@ -1,0 +1,30 @@
+[
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -798.3684052056683,
+      -993.0715952257449,
+      -954.8806137050497,
+      -1171.4525987203106,
+      -1446.564343265165
+    ],
+    "mean_return": -1072.8675112243877,
+    "std_return": 221.36232613309298,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 2000
+  }
+]

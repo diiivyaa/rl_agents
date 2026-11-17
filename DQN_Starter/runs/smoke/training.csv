@@ -1,0 +1,2 @@
+step,updates,epsilon,loss,mean_100_return,elapsed_seconds
+2000,251,0.9810095,0.0,-1236.304058951925,13.57

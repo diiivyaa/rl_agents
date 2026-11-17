@@ -1,0 +1,842 @@
+[
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -1338.2673886486282,
+      -1577.1921514358564,
+      -1555.4243104440081,
+      -1569.7367807089756,
+      -1410.2208390326903
+    ],
+    "mean_return": -1490.1682940540318,
+    "std_return": 97.59930750228692,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 5000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -856.8474265443381,
+      -1108.8797633241259,
+      -932.5939775079755,
+      -953.7515954970768,
+      -1441.990089438279
+    ],
+    "mean_return": -1058.8125704623592,
+    "std_return": 208.37014943386964,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 10000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -1218.05386320811,
+      -1113.107336288021,
+      -1252.6304133067492,
+      -1138.7744895567328,
+      -1528.285380243039
+    ],
+    "mean_return": -1250.1702965205304,
+    "std_return": 148.0410741207352,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 15000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -954.7398993026502,
+      -1453.235807553493,
+      -1208.274524794807,
+      -1338.3749469572701,
+      -1553.2522878366722
+    ],
+    "mean_return": -1301.5754932889784,
+    "std_return": 208.1808154488293,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 20000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -1540.5644220374352,
+      -1551.8693672203074,
+      -1558.6151007144724,
+      -1557.3060738596978,
+      -1158.4664347678822
+    ],
+    "mean_return": -1473.364279719959,
+    "std_return": 157.57759227125248,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 25000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -1586.6279798802461,
+      -1577.3105667984053,
+      -1595.7116497504142,
+      -1584.2940727117457,
+      -1390.1515849519665
+    ],
+    "mean_return": -1546.8191708185554,
+    "std_return": 78.5544928530274,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 30000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -1460.531785336132,
+      -1531.5377276252734,
+      -1540.2108423494014,
+      -1541.502883332586,
+      -1158.4664347678822
+    ],
+    "mean_return": -1446.4499346822552,
+    "std_return": 147.10465533243553,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 35000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -1573.4201202828822,
+      -1199.3609983842696,
+      -961.6198685409272,
+      -1167.400708221145,
+      -1479.986431759739
+    ],
+    "mean_return": -1276.3576254377924,
+    "std_return": 222.06790070207566,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 40000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -1157.4441884221858,
+      -1082.4492138405676,
+      -1062.3794803724797,
+      -1030.7960236939507,
+      -1334.3320575675134
+    ],
+    "mean_return": -1133.4801927793394,
+    "std_return": 108.73753296173895,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 45000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -1111.3668329226095,
+      -1398.026660138914,
+      -1257.4084980974715,
+      -1375.9470320600956,
+      -1488.5367562047147
+    ],
+    "mean_return": -1326.257155884761,
+    "std_return": 130.28630227088337,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 50000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -1167.4330465234266,
+      -1312.8804334591705,
+      -1222.1862019631485,
+      -1283.3954977678318,
+      -1397.9386899729966
+    ],
+    "mean_return": -1276.7667739373148,
+    "std_return": 78.69392912630765,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 55000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -1163.9921702780402,
+      -1330.8099255144305,
+      -1266.6841913508304,
+      -1309.4802355975728,
+      -1433.6830553860327
+    ],
+    "mean_return": -1300.9299156253815,
+    "std_return": 87.76563656786108,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 60000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -892.0225818749058,
+      -1145.5231668486206,
+      -1042.9639008678541,
+      -1104.6936791603623,
+      -1354.2012032075913
+    ],
+    "mean_return": -1107.8809063918666,
+    "std_return": 150.2729654213161,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 65000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -920.5215272491672,
+      -1117.6333661808062,
+      -1062.078622844155,
+      -1115.2954552903602,
+      -1479.986431759739
+    ],
+    "mean_return": -1139.1030806648455,
+    "std_return": 184.8999044433851,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 70000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -1489.5032175423949,
+      -974.2498823756207,
+      -1420.2259855159302,
+      -969.2150788300476,
+      -1202.378000233446
+    ],
+    "mean_return": -1211.1144328994878,
+    "std_return": 217.22080696951124,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 75000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -1278.7203105083045,
+      -1467.9025824612302,
+      -1403.253674925734,
+      -1453.3785530073942,
+      -1560.8638617731658
+    ],
+    "mean_return": -1432.8237965351657,
+    "std_return": 92.37916869019574,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 80000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -1068.7691307400382,
+      -1026.9465681798322,
+      -925.6806006835411,
+      -956.9497373419763,
+      -1168.5338667896176
+    ],
+    "mean_return": -1029.375980747001,
+    "std_return": 85.93128899290944,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 85000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -1094.1076948692182,
+      -1244.1334190547846,
+      -1190.356937324465,
+      -1216.4646671010405,
+      -1337.301726492417
+    ],
+    "mean_return": -1216.4728889683852,
+    "std_return": 78.76547038755365,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 90000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -999.0485923376373,
+      -1126.7415378889027,
+      -1064.1966850351705,
+      -1106.8531676486602,
+      -1262.3478702807713
+    ],
+    "mean_return": -1111.8375706382285,
+    "std_return": 87.05323706628548,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 95000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -1039.6630226397035,
+      -1216.362689476882,
+      -1212.9822188820604,
+      -1216.5551539044038,
+      -1314.6465585941596
+    ],
+    "mean_return": -1200.0419286994418,
+    "std_return": 88.95180678463839,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 100000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -879.195765044131,
+      -991.3041044363304,
+      -918.950140089065,
+      -928.4818568614467,
+      -1057.225514368877
+    ],
+    "mean_return": -955.03147615997,
+    "std_return": 62.477396209383826,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 105000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -946.1955548183153,
+      -1127.7026936401046,
+      -1073.5909675402306,
+      -1108.6057165405273,
+      -1227.8001165963854
+    ],
+    "mean_return": -1096.7790098271125,
+    "std_return": 91.07770073819488,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 110000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -924.269229303129,
+      -1021.4698094858301,
+      -932.2427871349038,
+      -976.9721974416285,
+      -1120.6551746334271
+    ],
+    "mean_return": -995.1218395997836,
+    "std_return": 71.77201523851033,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 115000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -1063.7450600358636,
+      -1273.2275676566846,
+      -1224.4521124206208,
+      -1240.3008411677952,
+      -1320.0703464425007
+    ],
+    "mean_return": -1224.359185544693,
+    "std_return": 86.71768841825238,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 120000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -916.9764417609932,
+      -1011.9097774474202,
+      -926.7355444799426,
+      -990.9893971014867,
+      -1479.986431759739
+    ],
+    "mean_return": -1065.3195185099164,
+    "std_return": 210.49342156484033,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 125000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -793.3253844045306,
+      -919.0404114677426,
+      -816.7343736248035,
+      -903.2573058916702,
+      -971.1876944170655
+    ],
+    "mean_return": -880.7090339611625,
+    "std_return": 66.17063765974666,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 130000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -782.5037232620923,
+      -810.5738177242473,
+      -786.3217996251905,
+      -799.2479672988829,
+      -931.169253351748
+    ],
+    "mean_return": -821.9633122524323,
+    "std_return": 55.495984789888915,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 135000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -876.8497597360571,
+      -1090.828299091353,
+      -943.6929236069909,
+      -1047.7286633757753,
+      -1147.731166195129
+    ],
+    "mean_return": -1021.366162401061,
+    "std_return": 98.39329930345016,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 140000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -635.613184157467,
+      -785.9463299647947,
+      -697.0751686631885,
+      -666.8983618580864,
+      -844.1911669163101
+    ],
+    "mean_return": -725.9448423119693,
+    "std_return": 77.5398287056491,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 145000
+  },
+  {
+    "seed": 10000,
+    "episodes": 5,
+    "episode_length": 200,
+    "returns": [
+      -632.0767939250937,
+      -282.74997884267816,
+      -679.2150501493412,
+      -782.1392039367186,
+      -829.9472841711125
+    ],
+    "mean_return": -641.2256622049889,
+    "std_return": 192.61577702263617,
+    "policy": "image_only_dqn",
+    "preprocessing": {
+      "renderer": "legacy_rod_no_arrow_v1",
+      "render_size": 500,
+      "crop_box": [
+        120,
+        120,
+        380,
+        380
+      ],
+      "grayscale": "legacy_weighted_uint8_truncate",
+      "resize": "bilinear"
+    },
+    "step": 150000
+  }
+]

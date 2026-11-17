@@ -1,0 +1,14 @@
+{
+  "steps": 2000,
+  "updates": 251,
+  "best_validation_return": -1072.8675112243877,
+  "elapsed_seconds": 13.571337700000186,
+  "runtime": {
+    "torch": "2.14.1+cu130",
+    "numpy": "2.5.4",
+    "cuda_runtime": "13.0",
+    "device": "cpu",
+    "gpu": null
+  },
+  "stop_reason": "step_budget"
+}
